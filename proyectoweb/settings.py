@@ -1,7 +1,4 @@
-(Sin asunto)
-CRISTOBAL EDUARDO ULLOA TORO
 
-CARLOS ABRAHAM MORA RENTERIA
 """
 Django settings for django_hola_mundo project.
 
