@@ -23,6 +23,6 @@ from estaticas.views import *
 
 urlpatterns = [
     path('', mostrar_home),
-    path('about/', mostrar_about),
-  
+    path('about/', mostrar_acerca),
+
 ]
