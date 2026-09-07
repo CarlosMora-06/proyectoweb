@@ -17,7 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from django.contrib import admin
+from django.urls import path
+from estaticas.views import *
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('estaticas.urls')),
+    path('', mostrar_home),
+    path('about/', mostrar_about),
 ]
